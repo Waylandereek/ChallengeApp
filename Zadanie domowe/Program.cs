@@ -16,7 +16,7 @@ class Program
         {
             Console.WriteLine("Ewa, lat 30");
         }
-        else if (kobieta != false && wiek > 18)
+        else if (kobieta != false && wiek < 18)
         {
             Console.WriteLine("Niepełnoletni mężczyzna");
         }
